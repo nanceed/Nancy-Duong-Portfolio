@@ -16,6 +16,8 @@ h3 {
 
 h1 {
     font-size: 96px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -30,6 +32,8 @@ h3 {
 p {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
 }
 
 .navigation-links {
