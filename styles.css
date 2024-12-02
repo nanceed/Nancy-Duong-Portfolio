@@ -50,14 +50,16 @@ p {
     text-align: center;
 }
 
-.primary-link {
+.btn-branding {
     background: var(--primary-color);
     border-radius: 4px;
-    padding: 20px 15px;
+    font-size: 18px;
+    padding: 15px 30px;
     text-decoration: none;
     box-shadow: var(--box-shadow);
     text-transform: capitalize;
     color: white;
+    line-height: 27px;
 }
 
 .about-paragraphs {
@@ -99,7 +101,7 @@ p {
       text-align: center;
     }
 
-    .primary-link {
+    .btn-branding {
       display: block;
       text-align: center;
       margin: 0 20px;
