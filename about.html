@@ -17,30 +17,26 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/" title="Homepage">Nancy Duong</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/" title="Homepage">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/about.html" title="About Nancy Duong">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/work.html" title="Nancy Duong's work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html" title="Contact Nancy Duong">Contact</a>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="Homepage" class="nav-name d-none d-md-inline">Nancy Duong</a>
+      <a href="/" class="nav-name d-inline d-md-none">ND</a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="About Nancy Duong">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Nancy Duong's work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Nancy Duong">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="content-container container">
     <div class="row">
       <div class="col-lg-6">
