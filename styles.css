@@ -83,48 +83,13 @@ nav li.active a {
     padding: 160px 0;
 }
 
-.waving {
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  }
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 .content-container {
     padding: 53px 10px;
 }
 
 .content h1 {
     font-size: 52px;
-    line-height: 80px;
+    line-height: 75px;
     font-family: var(--heading-font-family);
 }
 
@@ -136,22 +101,21 @@ nav li.active a {
 }
 
 .content h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--default-font-family);
 }
 
 .content p {
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.content-paragraphs {
+    margin: 30px 0;
 }
 
 .content {
     margin: 30px;
 }
-
-.content-paragraph {
-    margin: 30px 0;
-}
-
 .navigation-link { 
     display: block;
     text-align: center;
@@ -199,6 +163,41 @@ nav li.active a {
 .project-images {
     padding: 6px;
     background: var(--secondary-color);
+}
+
+.waving {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 footer {
