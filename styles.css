@@ -1,13 +1,14 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #962071;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --secondary-color: #f9f7fe;
+    --secondary-color: rgba(193, 193, 245, 0.4);
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
 }
 
 body {
     margin: 40px 0;
+    background: #fcf9f9;
 }
 
 h1, 
@@ -134,6 +135,11 @@ nav li.active a {
     line-height: 27px;
 }
 
+.btn-branding:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
 .btn-branding-outline {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -141,7 +147,11 @@ nav li.active a {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
 
+.btn-branding-outline:hover {
+    background: var(--primary-color);
+    color: white;
 }
 
 .project-details {
