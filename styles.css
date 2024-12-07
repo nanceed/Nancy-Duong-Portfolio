@@ -58,6 +58,7 @@ nav li {
     list-style: none;
     line-height: 42px;
     margin-left: 20px;
+    font-size: 18px;
 }
 
 nav a {
@@ -75,12 +76,12 @@ nav li.active a {
 .nav-name {
     font-family: var(--heading-font-family);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .hero {
     background: var(--secondary-color);
-    padding: 160px 0;
+    padding: 80px 20px;
 }
 
 .content-container {
