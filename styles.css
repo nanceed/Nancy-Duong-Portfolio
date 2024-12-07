@@ -160,6 +160,10 @@ nav li.active a {
     color: var(--primary-color);
 }
 
+.contact-content a:hover {
+    text-decoration: underline;
+}
+
 .project-images {
     padding: 6px;
     background: var(--secondary-color);
