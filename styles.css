@@ -271,7 +271,7 @@ footer .social-links a:hover {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     .hero h1 {
       font-size: 55px;
       line-height: 1.3;
@@ -288,11 +288,6 @@ footer .social-links a:hover {
 
     p {
       font-size: 15px;
-    }
-
-    .btn-branding {
-        padding: 15px 95.5px;
-        margin-right: 2px;
     }
 
     .project-details {
