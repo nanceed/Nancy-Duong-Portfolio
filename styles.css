@@ -179,6 +179,11 @@ nav li.active a {
 .project-images {
     padding: 6px;
     background: var(--secondary-color);
+    transition: all 250ms ease-in-out;
+}
+
+.project-images:hover {
+    transform: scale(1.1);
 }
 
 .waving {
